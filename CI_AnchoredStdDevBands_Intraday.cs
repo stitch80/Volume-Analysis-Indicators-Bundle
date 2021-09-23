@@ -32,11 +32,11 @@ namespace NinjaTrader.NinjaScript.Indicators
 		private int N = 0;
 		private TimeSpan anchorTime;
 
-		public CI_AnchoredStdDevBands_Intraday()
-		{
-			VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
-				"info@crystalindicators.com", null);
-		}
+		//public CI_AnchoredStdDevBands_Intraday()
+		//{
+		//	VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
+		//		"info@crystalindicators.com", null);
+		//}
 
 		protected override void OnStateChange()
 		{

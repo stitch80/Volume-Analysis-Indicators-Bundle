@@ -36,11 +36,11 @@ namespace NinjaTrader.NinjaScript.Indicators
 		private Series<double> VWAPValue;
 		private Series<double> StdDevValue;
 
-		public CI_PriceZScoreFromVWAP_EndOfDay()
-		{
-			VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
-				"info@crystalindicators.com", null);
-		}
+		//public CI_PriceZScoreFromVWAP_EndOfDay()
+		//{
+		//	VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
+		//		"info@crystalindicators.com", null);
+		//}
 
 		protected override void OnStateChange()
 		{

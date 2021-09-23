@@ -30,11 +30,11 @@ namespace NinjaTrader.NinjaScript.Indicators
 		private double SummPV = 0;
 		private DateTime anchorDate;
 
-		public CI_AnchoredVWAP_EndOfDay()
-		{
-			VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
-				"info@crystalindicators.com", null);
-		}
+		//public CI_AnchoredVWAP_EndOfDay()
+		//{
+		//	VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
+		//		"info@crystalindicators.com", null);
+		//}
 
 		protected override void OnStateChange()
 		{

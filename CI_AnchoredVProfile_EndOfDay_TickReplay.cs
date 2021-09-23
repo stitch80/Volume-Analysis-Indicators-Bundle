@@ -33,11 +33,11 @@ namespace NinjaTrader.NinjaScript.Indicators
 		private int startBarIdx;
 		private DateTime anchorDate;
 
-		public CI_AnchoredVProfile_EndOfDay_TickReplay()
-		{
-			VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
-				"info@crystalindicators.com", null);
-		}
+		//public CI_AnchoredVProfile_EndOfDay_TickReplay()
+		//{
+		//	VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
+		//		"info@crystalindicators.com", null);
+		//}
 
 		protected override void OnStateChange()
 		{

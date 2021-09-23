@@ -34,11 +34,11 @@ namespace NinjaTrader.NinjaScript.Indicators
 		private DateTime anchorDate;
 		private bool isAllowedTimeframe;
 
-		public CI_AnchoredVProfile_EndOfDay()
-		{
-			VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
-				"info@crystalindicators.com", null);
-		}
+		//public CI_AnchoredVProfile_EndOfDay()
+		//{
+		//	VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
+		//		"info@crystalindicators.com", null);
+		//}
 
 		protected override void OnStateChange()
 		{

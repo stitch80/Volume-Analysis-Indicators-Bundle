@@ -34,11 +34,11 @@ namespace NinjaTrader.NinjaScript.Indicators
 		private double DailyLow;
 		private TimeSpan anchorTime;
 
-		public CI_AnchoredMPDBands()
-		{
-			VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
-				"info@crystalindicators.com", null);
-		}
+		//public CI_AnchoredMPDBands()
+		//{
+		//	VendorLicense("CrystalIndicators", "VolumeAnalysisIndicators", "www.crystalindicators.com",
+		//		"info@crystalindicators.com", null);
+		//}
 
 		protected override void OnStateChange()
 		{
